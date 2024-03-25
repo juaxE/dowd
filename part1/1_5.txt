@@ -1,0 +1,102 @@
+Script started on 2024-03-25 11:57:39+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="142" LINES="35"]
+]0;juaxe@juaxe-FX503VM: ~/koulu/dowd[01;32mjuaxe@juaxe-FX503VM[00m:[01;34m~/koulu/dowd[00m$ docker run -d -it --name apli[K[K[Klpine-secret [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpull devopsdockeruh/simple-web-service:alpine
+alpine: Pulling from devopsdockeruh/simple-web-service
+
+[1A[2K
+ba3557a56b15: Pulling fs layer 
+[1B
+[1A[2K
+1dace236434b: Pulling fs layer 
+[1B
+[1A[2K
+4f4fb700ef54: Pulling fs layer 
+[1B[1A[2K
+4f4fb700ef54: Downloading [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Verifying Checksum 
+[1B[1A[2K
+4f4fb700ef54: Download complete 
+[1B[3A[2K
+ba3557a56b15: Downloading [>                                                  ]  28.13kB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Downloading [===================>                               ]  1.096MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [>                                                  ]  51.42kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Downloading [========================================>          ]  2.259MB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Verifying Checksum 
+[3B[3A[2K
+ba3557a56b15: Download complete 
+[3B[3A[2K
+ba3557a56b15: Extracting [>                                                  ]  32.77kB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [===>                                               ]  328.5kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Extracting [============================================>      ]   2.49MB/2.812MB
+[3B[3A[2K
+ba3557a56b15: Extracting [==================================================>]  2.812MB/2.812MB
+[3B[2A[2K
+1dace236434b: Downloading [========>                                          ]  832.3kB/5.117MB
+[2B[3A[2K
+ba3557a56b15: Pull complete 
+[3B[2A[2K
+1dace236434b: Downloading [================>                                  ]  1.717MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [============================>                      ]   2.88MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [=======================================>           ]  4.019MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+1dace236434b: Downloading [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+1dace236434b: Verifying Checksum 
+[2B[2A[2K
+1dace236434b: Download complete 
+[2B[2A[2K
+1dace236434b: Extracting [>                                                  ]  65.54kB/5.117MB
+[2B[2A[2K
+1dace236434b: Extracting [==================================================>]  5.117MB/5.117MB
+[2B[2A[2K
+1dace236434b: Pull complete 
+[2B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Extracting [==================================================>]      32B/32B
+[1B[1A[2K
+4f4fb700ef54: Pull complete 
+[1BDigest: sha256:dd4d367476f86b7d7579d3379fe446ae5dfce25480903fb0966fc2e5257e0543
+Status: Downloaded newer image for devopsdockeruh/simple-web-service:alpine
+docker.io/devopsdockeruh/simple-web-service:alpine
+]0;juaxe@juaxe-FX503VM: ~/koulu/dowd[01;32mjuaxe@juaxe-FX503VM[00m:[01;34m~/koulu/dowd[00m$ docker images
+REPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              latest    ca2b0f26964c   3 weeks ago   77.9MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   3 years ago   15.7MB
+]0;juaxe@juaxe-FX503VM: ~/koulu/dowd[01;32mjuaxe@juaxe-FX503VM[00m:[01;34m~/koulu/dowd[00m$ docker run -d -it --name apl[K[Klpine-secret devopsdockeruh/simple-web-service:alpine
+b523146969104fc2e30f7ff42446d0bb06f8a5b6f11767c1d1c7d3d89358cb72
+]0;juaxe@juaxe-FX503VM: ~/koulu/dowd[01;32mjuaxe@juaxe-FX503VM[00m:[01;34m~/koulu/dowd[00m$ docker exec ap[Klpine-secret sh[K[K[C[C[C[1@ [1@-[1@i[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C s h 
+/usr/src/app # [6ntail -f ./text.log
+2024-03-25 09:59:45 +0000 UTC
+2024-03-25 09:59:47 +0000 UTC
+2024-03-25 09:59:49 +0000 UTC
+2024-03-25 09:59:51 +0000 UTC
+2024-03-25 09:59:53 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-03-25 09:59:55 +0000 UTC
+2024-03-25 09:59:57 +0000 UTC
+2024-03-25 09:59:59 +0000 UTC
+2024-03-25 10:00:01 +0000 UTC
+2024-03-25 10:00:03 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-03-25 10:00:05 +0000 UTC
+2024-03-25 10:00:07 +0000 UTC
+2024-03-25 10:00:09 +0000 UTC
+2024-03-25 10:00:11 +0000 UTC
+2024-03-25 10:00:13 +0000 UTC
+^C
+/usr/src/app # [6n
+]0;juaxe@juaxe-FX503VM: ~/koulu/dowd[01;32mjuaxe@juaxe-FX503VM[00m:[01;34m~/koulu/dowd[00m$ exit
+
+Script done on 2024-03-25 12:00:15+02:00 [COMMAND_EXIT_CODE="130"]
